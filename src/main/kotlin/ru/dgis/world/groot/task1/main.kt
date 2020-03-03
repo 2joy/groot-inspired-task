@@ -16,11 +16,11 @@ class Cli : CliktCommand(
 }
 
 suspend fun y(x: Float): Float {
-    delay(3000)
+    delay(300)
     return x * 2
 }
 
-fun g(y: Float) = false
+suspend fun g(y: Float) = delay(100)
 
 fun h(y: Float, writer: BufferedWriter) = writer.appendln(y.toString())
 
