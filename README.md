@@ -1,6 +1,6 @@
 # groot-inspired-task
 A small example on how to use Kotlin channels and coroutines.
-```bash
+```
 Usage: groot-inspired-task [OPTIONS] COMMAND [ARGS]...
 
   The input file must contain real numbers, each on a separate line. The
@@ -15,7 +15,7 @@ Commands:
   furious  The classic approach to handling channels
 ```
 
-```bash
+```
 Usage: groot-inspired-task fast [OPTIONS]
 
   Really fast implementation, but possibly useless in common cases
@@ -26,7 +26,7 @@ Options:
   -h, --help          Show this message and exit
 ```
 
-```bash
+```
 Usage: groot-inspired-task furious [OPTIONS]
 
   The classic approach to handling channels
